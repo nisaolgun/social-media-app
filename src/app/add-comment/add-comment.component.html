@@ -1,0 +1,7 @@
+<!-- add-comment.component.html -->
+
+<form [formGroup]="commentForm" (ngSubmit)="onSubmit()">
+    <textarea formControlName="comment"></textarea>
+    <button type="submit" [disabled]="commentForm.invalid">Yorum Ekle</button>
+  </form>
+  
