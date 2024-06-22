@@ -1,0 +1,172 @@
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .user-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .user-info {
+    flex: 1;
+  }
+
+  .username {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .user-email {
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  .user-bio {
+    margin-bottom: 10px;
+  }
+
+  .post-form textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+
+  .btn-post {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+  }
+
+  .btn-post:hover {
+    background-color: #45a049;
+  }
+
+  .post {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .post-info {
+    flex: 1;
+  }
+
+  .post-author {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .post-time {
+    color: #777;
+  }
+
+  .post-content {
+    margin-bottom: 10px;
+  }
+
+  .post-actions {
+    margin-top: 10px;
+  }
+
+  .btn-like, .btn-comment {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+
+  .btn-like:hover, .btn-comment:hover {
+    background-color: #0b7dda;
+  }
+
+  /* header/header.component.css */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-actions a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .user-actions a:hover {
+    text-decoration: underline;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
